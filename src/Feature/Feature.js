@@ -18,10 +18,10 @@ export default class Feature extends Component {
             )})
 
         return (
+
+
             <fieldset className="feature" key={this.props.name}>
-                <legend className="feature__name">
-                    <h3>{this.props.name}</h3>
-                </legend>
+                <legend className="feature__name">{this.props.name}</legend>
                 {options}
             </fieldset>
         )

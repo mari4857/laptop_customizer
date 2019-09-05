@@ -8,8 +8,8 @@ export default class Cart extends Component {
         return (
             <section className="main__summary">
                 <h2>Your cart</h2>
-                <Summary selected={this.props.selected} />
-                <Total selected={this.props.selected} />
+                < Summary selected={this.props.selected} />
+                < Total selected={this.props.selected} />
             </section>
         )
     }
